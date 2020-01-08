@@ -12,13 +12,8 @@ const ContainerStyled = styled.div({
   },
 
   [mq[2]]: {
-    maxWidth: 1152,
-    width: 1152,
-  },
-
-  [mq[3]]: {
-    maxWidth: 1344,
-    width: 1344,
+    maxWidth: 1170,
+    width: 1170,
   },
 })
 

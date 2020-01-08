@@ -15,11 +15,11 @@ export const colors = {
     Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;`,
 }
 
+// Screen widths
 const sizes = [
-  769, // desktop
-  1088, // screen width
-  1280, // screen width
-  1472, // screen width
+  769,
+  1088,
+  1280,
 ]
 
 export const mq = sizes.map(bp => `@media screen and (min-width: ${bp}px)`)
